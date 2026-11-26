@@ -77,7 +77,7 @@ public class Main{
                 continue;
             }
 
-            //Calculating the actual amount of item taken and its corresponding profit
+            //Calculating the actual amount of item taken and its corresponding profitupated
             double taken= Math.min(m.weight,remaining);
             double fraction= taken/m.weight;
 
